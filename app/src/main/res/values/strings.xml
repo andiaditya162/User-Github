@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">UserGit</string>
+    <string name="tab_follower">Followers</string>
+    <string name="tab_following">Following</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="favorite">Favorite</string>
+    <string name="theme">Theme</string>
+    <string name="light_theme">Light Themme</string>
+    <string name="dark_theme">Dark Theme</string>
+    <string name="hint_title">Search Users</string>
+</resources>
