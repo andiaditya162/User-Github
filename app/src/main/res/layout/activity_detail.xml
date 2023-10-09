@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
     tools:context=".ui.detail.DetailActivity">
 
     <ImageView
@@ -20,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:textColor="@color/black"
+        android:textColor="@color/base950"
         android:textSize="18sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/iv_profile"
@@ -33,6 +34,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
+        android:textColor="@color/base700"
         app:layout_constraintEnd_toEndOf="@+id/tv_name"
         app:layout_constraintStart_toStartOf="@+id/tv_name"
         app:layout_constraintTop_toBottomOf="@+id/tv_name"
@@ -52,7 +54,7 @@
             android:id="@+id/tv_followers"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
+            android:textColor="@color/base700"
             android:textSize="14sp"
             android:gravity="center_vertical"
             android:layout_marginEnd="16dp"
@@ -63,7 +65,7 @@
             android:id="@+id/tv_following"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textColor="@color/black"
+            android:textColor="@color/base700"
             android:textSize="14sp"
             android:layout_gravity="center_vertical"
             tools:text="7 following" />
@@ -74,11 +76,12 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/linearLayout"
-        app:tabTextColor="@color/black" />
+        app:tabSelectedTextColor="@color/primary"
+        app:tabTextColor="@color/base700" />
+
 
     <androidx.viewpager.widget.ViewPager
         android:id="@+id/view_pager"
